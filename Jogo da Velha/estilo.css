@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+    background: url(./coqueiro.jpg)
+}
+
+h1, label {
+    font-family: 'Patrick Hand SC', cursive;
+    color: orangered;
+    text-shadow: 0.1em 0.1em #000;
+}
+
+.quadrado {
+    text-align: center;
+    width: 50px;
+    background: #eee;
+    display: inline-block;
+    padding: 40px;
+    font-size: 60px;
+    margin: 5px;
+    cursor: pointer;
+    color: #eee;
+}
+
+.jogador, .vencedor {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    background: #eee;
+    cursor: pointer;
+}
